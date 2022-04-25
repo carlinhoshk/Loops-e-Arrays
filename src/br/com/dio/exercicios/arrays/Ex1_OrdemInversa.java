@@ -1,7 +1,8 @@
 package br.com.dio.exercicios.arrays;
 /*
-Crie um vetor de 6 números inteiros
-e mostre-os na ordem inversa.
+* 00:42
+* 25/04/2022
+* Manipulando Arrays
 */
 public class Ex1_OrdemInversa {
     public static void main(String[] args) {
@@ -12,11 +13,13 @@ public class Ex1_OrdemInversa {
 
         System.out.print("Vetor: ");
         int count =0;
+        // esse começa contando de 0 a TAMANHO_ARRAY e printa <
         while(count < (vetor.length)) {
             System.out.print(vetor[count] + " ");
             count++;
         }
 
+        // Esse conta o total e começa do fim do array para o inicio >=
         System.out.print("\nVetor: ");
         for(int i = (vetor.length - 1); i >= 0; i --) {
             System.out.print(vetor[i] + " ");
