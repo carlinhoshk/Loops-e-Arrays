@@ -19,7 +19,7 @@ public class Ex1_OrdemInversa {
             count++;
         }
 
-        // Esse conta o total e começa do fim do array para o inicio >=
+        // Esse conta o total e começa do fim do array para o inicio "cortando por i -- " >=
         System.out.print("\nVetor: ");
         for(int i = (vetor.length - 1); i >= 0; i --) {
             System.out.print(vetor[i] + " ");
